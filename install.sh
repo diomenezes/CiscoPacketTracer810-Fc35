@@ -16,7 +16,7 @@ if [ -e /opt/pt ]; then
 fi
 
 echo "Extracting files"
-ar -x CiscoPacketTracer_810_Ubuntu_64bit.deb
+ar -x Cisco_Packet_Tracer_811_Ubuntu_64bit_cf200f5851.deb
 tar -xvf control.tar.xz
 tar -xvf data.tar.xz
 
